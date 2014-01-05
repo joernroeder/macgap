@@ -49,6 +49,10 @@
     [center scheduleNotification:notification];
 }
 
+- (BOOL) userNotificationCenter:(NSUserNotificationCenter *)center shouldPresentNotification:(NSUserNotification *)notification {
+    return YES;
+}
+
 // close all notifications with id == notificationId or close all notifications if notificationId == "*"
 - (void) close:(NSString*)notificationId {
     NSUserNotificationCenter *center = [NSUserNotificationCenter defaultUserNotificationCenter];
