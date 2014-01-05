@@ -40,6 +40,15 @@
     [windowScriptObject setValue:self forKey:kWebScriptNamespace];
 }
 
+/**
+ @see http://stackoverflow.com/a/11820479
+ */
+- (void)webView:(WebView *)sender didFinishLoadForFrame:(WebFrame *)frame {
+    NSScrollView *mainScrollView = sender.mainFrame.frameView.documentView.enclosingScrollView;
+    [mainScrollView setVerticalScrollElasticity:NSScrollElasticityNone];
+    [mainScrollView setHorizontalScrollElasticity:NSScrollElasticityNone];
+}
+
 
 - (void)webView:(WebView *)sender runOpenPanelForFileButtonWithResultListener:(id < WebOpenPanelResultListener >)resultListener allowMultipleFiles:(BOOL)allowMultipleFiles{
    
