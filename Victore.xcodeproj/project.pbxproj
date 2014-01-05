@@ -74,15 +74,15 @@
 		FA3250E414BA883A00BF0781 /* public */ = {isa = PBXFileReference; lastKnownFileType = folder; path = public; sourceTree = "<group>"; };
 		FA3250E614BA8BCE00BF0781 /* application.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = application.icns; sourceTree = SOURCE_ROOT; };
 		FA3F7741168F70780027B324 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		FAE451BA14BA79C600190544 /* Kato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE451BA14BA79C600190544 /* Victore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Victore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE451BE14BA79C600190544 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FAE451C114BA79C600190544 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		FAE451C214BA79C600190544 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		FAE451C314BA79C600190544 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		FAE451C614BA79C600190544 /* Kato-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kato-Info.plist"; sourceTree = "<group>"; };
+		FAE451C614BA79C600190544 /* Victore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Victore-Info.plist"; sourceTree = "<group>"; };
 		FAE451C814BA79C600190544 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAE451CA14BA79C600190544 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FAE451CC14BA79C600190544 /* Kato-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kato-Prefix.pch"; sourceTree = "<group>"; };
+		FAE451CC14BA79C600190544 /* Victore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Victore-Prefix.pch"; sourceTree = "<group>"; };
 		FAE451CE14BA79C600190544 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		FAE451D014BA79C600190544 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FAE451D114BA79C600190544 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -156,7 +156,7 @@
 		FAE451BB14BA79C600190544 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAE451BA14BA79C600190544 /* Kato.app */,
+				FAE451BA14BA79C600190544 /* Victore.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,10 +198,10 @@
 			isa = PBXGroup;
 			children = (
 				FA3250E614BA8BCE00BF0781 /* application.icns */,
-				FAE451C614BA79C600190544 /* Kato-Info.plist */,
+				FAE451C614BA79C600190544 /* Victore-Info.plist */,
 				FAE451C714BA79C600190544 /* InfoPlist.strings */,
 				FAE451CA14BA79C600190544 /* main.m */,
-				FAE451CC14BA79C600190544 /* Kato-Prefix.pch */,
+				FAE451CC14BA79C600190544 /* Victore-Prefix.pch */,
 				FAE451CD14BA79C600190544 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -210,9 +210,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FAE451B914BA79C600190544 /* Kato */ = {
+		FAE451B914BA79C600190544 /* Victore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAE451D814BA79C600190544 /* Build configuration list for PBXNativeTarget "Kato" */;
+			buildConfigurationList = FAE451D814BA79C600190544 /* Build configuration list for PBXNativeTarget "Victore" */;
 			buildPhases = (
 				FAE451B814BA79C600190544 /* Resources */,
 				FAE451B614BA79C600190544 /* Sources */,
@@ -223,9 +223,9 @@
 			);
 			dependencies = (
 			);
-			name = Kato;
+			name = Victore;
 			productName = MacGap;
-			productReference = FAE451BA14BA79C600190544 /* Kato.app */;
+			productReference = FAE451BA14BA79C600190544 /* Victore.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -235,14 +235,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0450;
-				ORGANIZATIONNAME = "LeChat, Inc.";
+				ORGANIZATIONNAME = "jj-studio";
 				TargetAttributes = {
 					FAE451B914BA79C600190544 = {
 						DevelopmentTeam = 25X64Z7MK6;
 					};
 				};
 			};
-			buildConfigurationList = FAE451B414BA79C600190544 /* Build configuration list for PBXProject "Kato" */;
+			buildConfigurationList = FAE451B414BA79C600190544 /* Build configuration list for PBXProject "Victore" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -254,7 +254,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FAE451B914BA79C600190544 /* Kato */,
+				FAE451B914BA79C600190544 /* Victore */,
 			);
 		};
 /* End PBXProject section */
@@ -339,7 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -358,7 +358,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = "";
+				SDKROOT = macosx10.8;
 			};
 			name = Debug;
 		};
@@ -366,7 +366,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -379,7 +379,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = NO;
-				SDKROOT = "";
+				SDKROOT = macosx10.8;
 			};
 			name = Release;
 		};
@@ -388,21 +388,21 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Kato\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Kato/Kato-Prefix.pch";
+				GCC_PREFIX_HEADER = "Kato/Victore-Prefix.pch";
 				GCC_VERSION = "";
-				INFOPLIST_FILE = "Kato/Kato-Info.plist";
+				INFOPLIST_FILE = "Kato/Victore-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5596E9CE-F989-4B97-9BBF-DA884D064B11";
-				SDKROOT = macosx;
+				PRODUCT_NAME = Victore;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx10.8;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -412,21 +412,21 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_IDENTITY = "Developer ID Application";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Kato\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Kato/Kato-Prefix.pch";
+				GCC_PREFIX_HEADER = "Kato/Victore-Prefix.pch";
 				GCC_VERSION = "";
-				INFOPLIST_FILE = "Kato/Kato-Info.plist";
+				INFOPLIST_FILE = "Kato/Victore-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5596E9CE-F989-4B97-9BBF-DA884D064B11";
-				SDKROOT = macosx;
+				PRODUCT_NAME = Victore;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx10.8;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -434,7 +434,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FAE451B414BA79C600190544 /* Build configuration list for PBXProject "Kato" */ = {
+		FAE451B414BA79C600190544 /* Build configuration list for PBXProject "Victore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAE451D614BA79C600190544 /* Debug */,
@@ -443,7 +443,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAE451D814BA79C600190544 /* Build configuration list for PBXNativeTarget "Kato" */ = {
+		FAE451D814BA79C600190544 /* Build configuration list for PBXNativeTarget "Victore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FAE451D914BA79C600190544 /* Debug */,
