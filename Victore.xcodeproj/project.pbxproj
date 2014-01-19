@@ -14,6 +14,7 @@
 		88C0646D14BDF6A600E4BCE2 /* WindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C0646C14BDF6A600E4BCE2 /* WindowController.m */; };
 		C69E2E27188C1D750053ABD7 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69E2E26188C1D740053ABD7 /* Sparkle.framework */; };
 		C69E2E28188C1D840053ABD7 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C69E2E26188C1D740053ABD7 /* Sparkle.framework */; };
+		C6A3BAA4188C5A9C0010CCD3 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C6A3BAA3188C5A9C0010CCD3 /* icon.icns */; };
 		F2B80016179E0FC100B069A8 /* Clipboard.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B80015179E0FC100B069A8 /* Clipboard.m */; };
 		FA32509D14BA813600BF0781 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA32509C14BA813600BF0781 /* WebKit.framework */; };
 		FA3250C314BA85E700BF0781 /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3250BC14BA85E700BF0781 /* ContentView.m */; };
@@ -57,6 +58,7 @@
 		88C0646B14BDF6A600E4BCE2 /* WindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowController.h; sourceTree = "<group>"; };
 		88C0646C14BDF6A600E4BCE2 /* WindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WindowController.m; sourceTree = "<group>"; };
 		C69E2E26188C1D740053ABD7 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = frameworks/Sparkle.framework; sourceTree = "<group>"; };
+		C6A3BAA3188C5A9C0010CCD3 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		F2B80014179E0FC100B069A8 /* Clipboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clipboard.h; sourceTree = "<group>"; };
 		F2B80015179E0FC100B069A8 /* Clipboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clipboard.m; sourceTree = "<group>"; };
 		FA32509C14BA813600BF0781 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -150,6 +152,7 @@
 		FAE451AF14BA79C600190544 = {
 			isa = PBXGroup;
 			children = (
+				C6A3BAA3188C5A9C0010CCD3 /* icon.icns */,
 				FA3F7741168F70780027B324 /* Cocoa.framework */,
 				FA3250E414BA883A00BF0781 /* public */,
 				FAE451C414BA79C600190544 /* Kato */,
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3250E514BA883A00BF0781 /* public in Resources */,
+				C6A3BAA4188C5A9C0010CCD3 /* icon.icns in Resources */,
 				FAE451C914BA79C600190544 /* InfoPlist.strings in Resources */,
 				FAE451CF14BA79C600190544 /* Credits.rtf in Resources */,
 				FAE451D514BA79C600190544 /* MainMenu.xib in Resources */,
