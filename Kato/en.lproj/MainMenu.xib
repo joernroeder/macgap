@@ -15,10 +15,10 @@
         <customObject id="546" customClass="AppDelegate"/>
         <menu title="AMainMenu" systemMenu="main" id="29">
             <items>
-                <menuItem title="Kato" id="56">
-                    <menu key="submenu" title="Kato" systemMenu="apple" id="57">
+                <menuItem title="Victore" id="56">
+                    <menu key="submenu" title="Victore" systemMenu="apple" id="57">
                         <items>
-                            <menuItem title="About Kato" id="58">
+                            <menuItem title="About Victore" id="58">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-2" id="142"/>
@@ -39,7 +39,7 @@
                             <menuItem isSeparatorItem="YES" id="144">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Hide Kato" keyEquivalent="h" id="134">
+                            <menuItem title="Hide Victore" keyEquivalent="h" id="134">
                                 <connections>
                                     <action selector="hide:" target="-1" id="367"/>
                                 </connections>
@@ -58,7 +58,7 @@
                             <menuItem isSeparatorItem="YES" id="149">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Quit Kato" keyEquivalent="q" id="136">
+                            <menuItem title="Quit Victore" keyEquivalent="q" id="136">
                                 <connections>
                                     <action selector="terminate:" target="-3" id="449"/>
                                 </connections>
