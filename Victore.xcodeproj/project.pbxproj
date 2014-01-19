@@ -221,6 +221,7 @@
 			buildConfigurationList = FAE451D814BA79C600190544 /* Build configuration list for PBXNativeTarget "Victore" */;
 			buildPhases = (
 				FAE451B814BA79C600190544 /* Resources */,
+				C69E2E29188C28040053ABD7 /* ShellScript */,
 				FAE451B614BA79C600190544 /* Sources */,
 				FAE451B714BA79C600190544 /* Frameworks */,
 				FA3250DD14BA876F00BF0781 /* CopyFiles */,
@@ -280,6 +281,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C69E2E29188C28040053ABD7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Update build number with number of git commits if in release mode\n# @see http://objcsharp.wordpress.com/2013/10/01/how-to-automatically-update-xcode-build-numbers-from-git/\nif [ ${CONFIGURATION} == \"Release\" ]; then\nbuildNumber=$(git rev-list HEAD | wc -l | tr -d ' ')\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\nfi;";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAE451B614BA79C600190544 /* Sources */ = {
